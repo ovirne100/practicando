@@ -1,0 +1,114 @@
+body{
+    background-color: #222;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+    .slider-conten{
+        width: 700px;
+        margin: 100px auto;
+    }
+    .slider-viewport{
+        display: flex;
+        width: 700px;
+        height: 400px;
+        overflow-x: auto;
+        border-radius: 10px;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+    }
+.slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 700px;
+    scroll-snap-align: start;
+}
+#slide1{
+     background-color: yellow;
+     color: transparent;
+}
+#slide2{
+    background-color: rgb(255, 0, 13);
+}
+#slide3{
+    background-color: rgb(60, 255, 0);
+}
+#slide4{
+    background-color: rgb(17, 0, 255);
+}
+#slide5{
+    background-color: rgb(0, 255, 242);
+   
+}
+#slide5 img{
+width: 100%;
+}
+
+.links{
+    padding: 10px 0;
+display:flex;
+justify-content: center;
+gap: 30px;
+}
+ .links a{
+     display: flex;
+     text-decoration: none;
+     background-color: yellowgreen;
+     height: 30px;
+     width: 30px;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+ }
+
+
+
+
+
+
+}
+/*
+    .cards{
+       display: flex;
+    }
+    .card{
+        height: 300px;
+        width: 300px;
+        perspective: 1000px;
+        
+       
+    }
+
+    .card-front-back{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+       position: relative;
+       transition: transform 1s ease-in-out;
+       transform-style: preserve-3d;
+
+    }
+    .card:hover .card-front-back{
+        transform: rotatey(180deg);
+    }
+
+    .front,
+    .back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    .front{
+        background-color: royalblue;
+        
+    }
+
+    .back{
+        background-color: red;
+        transform: rotatey(180deg);
+
+       
+    }*/
+
+
